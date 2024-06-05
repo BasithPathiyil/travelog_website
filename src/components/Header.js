@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuIcon from "./svgIcons/MenuIcon";
 import { NavLink } from "react-router-dom";
+import HeaderMenu from "./HeaderMenu";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className="p-4 mx-1 md:mx-4 lg:mx-8">
       <div className="container mx-auto flex items-center justify-between">
         <div className="hidden md:flex lg:hidden">
-          <MenuIcon />
+          <button>
+            <MenuIcon />
+          </button>
         </div>
         <div className="flex items-center">
           <div className="md:hidden">
@@ -63,7 +71,9 @@ const Header = () => {
           </a>
         </div>
         <div className="md:hidden flex">
-          <MenuIcon />
+          <button>
+            <MenuIcon />
+          </button>
         </div>
       </div>
     </header>

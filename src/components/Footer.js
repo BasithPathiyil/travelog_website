@@ -33,7 +33,10 @@ const Footer = () => {
           <div className="mb-4">
             <div className="flex justify-between mb-4">
               <h3 className="font-bold">Company</h3>
-              <button className="block md:hidden" onClick={() => setActive(1)}>
+              <button
+                className="block md:hidden"
+                onClick={() => setActive(active === 1 ? 0 : 1)}
+              >
                 <DropdownIcon />
               </button>
             </div>
@@ -49,7 +52,10 @@ const Footer = () => {
           <div className="mb-4">
             <div className="flex justify-between mb-4">
               <h3 className="font-bold">Contact</h3>
-              <button className="block md:hidden" onClick={() => setActive(2)}>
+              <button
+                className="block md:hidden"
+                onClick={() => setActive(active === 2 ? 0 : 2)}
+              >
                 <DropdownIcon />
               </button>
             </div>
@@ -65,7 +71,10 @@ const Footer = () => {
           <div className="mb-4">
             <div className="flex justify-between mb-4">
               <h3 className="font-bold">Meet Us</h3>
-              <button className="block md:hidden" onClick={() => setActive(3)}>
+              <button
+                className="block md:hidden"
+                onClick={() => setActive(active === 3 ? 0 : 3)}
+              >
                 <DropdownIcon />
               </button>
             </div>
