@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-button-color {
+  @apply bg-[#5D50C6] text-white px-8 py-4 rounded-[100px] hover:bg-blue-600 gap-2;
+}
+
+.custom-button-no-border {
+  @apply  text-black px-8 py-4 rounded-[100px] hover:bg-slate-50 gap-2;
+}
+
+.custom-button-border {
+  @apply  text-black px-8 py-4 rounded-[100px] hover:bg-slate-50 gap-2;
+}
+
+
+.arrow-button-color {
+  @apply bg-[#5D50C6] text-white px-4 py-4 rounded-[50%] hover:bg-blue-600;
+}
+
+.arrow-button {
+  @apply px-4 py-4 rounded-[50%] hover:bg-blue-600;
+}
+
+.subheading {
+  @apply text-[32px] md:text-[40px];
+}
+
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  
+}
