@@ -7,7 +7,7 @@ import Rbitz from "./svgIcons/Rbitz";
 
 const Banners = () => {
   return (
-    <div className="mx-1 md:mx-8 lg:mx-16  py-16">
+    <div className="mx-1 px-2 md:mx-8 lg:mx-16  py-16">
       <div className="grid  grid-cols-3 lg:grid-cols-5 gap-4">
         <div className="flex justify-center items-center">
           <TripAdvisor />

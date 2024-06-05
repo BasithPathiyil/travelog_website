@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-button-color {
-  @apply bg-[#5D50C6] text-white px-8 py-4 rounded-[100px] hover:bg-blue-600 gap-2;
+  @apply bg-[#5D50C6] text-white px-8 py-4 rounded-[100px] hover:bg-[#4a3ea3] gap-2;
 }
 
 .custom-button-no-border {
@@ -16,11 +16,11 @@
 
 
 .arrow-button-color {
-  @apply bg-[#5D50C6] text-white px-4 py-4 rounded-[50%] hover:bg-blue-600;
+  @apply bg-[#5D50C6] text-white px-4 py-4 rounded-[50%] hover:bg-[#4a3ea3];
 }
 
 .arrow-button {
-  @apply px-4 py-4 rounded-[50%] hover:bg-blue-600;
+  @apply px-4 py-4 rounded-[50%] hover:bg-[#bababd];
 }
 
 .subheading {

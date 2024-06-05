@@ -16,9 +16,12 @@ const MainContent = () => {
         </div>
         {/* Text and Buttons */}
         <div className="text-center lg:text-left lg:w-2/5 lg:order-1">
-          <button className="flex px-8 py-4 rounded-[100px] text-[#F85E9F] gap-4 ">
-            Explore the world! <GiftIcon />
-          </button>
+          <div className="flex justify-center md:justify-start mb-1">
+            <button className="flex px-8 py-4 rounded-[100px] text-[#F85E9F] gap-4 ">
+              Explore the world! <GiftIcon />
+            </button>
+          </div>
+
           <h1 className="text-[40px] md:text-[56px] lg:text-[79px] font-bold mb-4">
             <span className="text-black">Travel</span>{" "}
             <span className="text-[#F85E9F]">top destination</span>{" "}
@@ -30,7 +33,7 @@ const MainContent = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center lg:justify-normal">
             <button className="custom-button-color">Get Started</button>
-            <button className="custom-button-border flex gap-4">
+            <button className="custom-button-border flex gap-4 justify-center">
               <PlayCicleIcon /> Watch Demo
             </button>
           </div>

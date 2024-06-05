@@ -2,10 +2,10 @@ import React from "react";
 
 const DestinationCard = ({ cardImg, title, price, place, rating }) => {
   return (
-    <div className="w-full mx-auto bg-white border border-gray-200 rounded-[50px] shadow-md hover:shadow-lg transition-shadow duration-300">
-      <div className="mb-6">
+    <div className="w-full mx-auto bg-white border border-gray-200 rounded-[50px] shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+      <div className="mb-6 overflow-hidden">
         <img
-          className="w-full h-56 object-cover rounded-t-[50px]"
+          className="w-full h-56 object-cover rounded-t-[50px] transform transition-transform duration-300 hover:scale-110"
           src={cardImg}
           alt={title}
         />

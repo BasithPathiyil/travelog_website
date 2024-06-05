@@ -29,7 +29,7 @@ const Features = () => {
           className="w-full h-auto"
         />
       </div>
-      <div className="flex flex-col lg:order-1 mr-4 mb-4 lg:mb-0  lg:w-2/5 gap-4 text-center lg:text-left">
+      <div className="flex flex-col lg:order-1 mr-4 md:mr-8 mb-4 lg:mb-0  lg:w-2/5 gap-4 text-center lg:text-left">
         <h1 className="text-[24px]  font-bold mb-4">
           <span className="text-[#F85E9F]">KEY FEATURES</span>{" "}
         </h1>
